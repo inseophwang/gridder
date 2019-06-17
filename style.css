@@ -1,0 +1,38 @@
+#container{
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat(10,10%);
+    height: 1000px;
+}
+
+.header{
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    background-color: #54ADEE;
+}
+
+.main-profile{
+    grid-column: 1 / 5;
+    grid-row: 2 / 5;
+    background-color: red;
+}
+
+.numbers{
+    grid-column: 1 / 5;
+    grid-row: 5 / 6;
+}
+.setting{
+    background-color: gray;
+    grid-column: 1 / 5;
+    grid-row: 6 / 7;
+}
+
+.tweet{
+    grid-column: 1 / 5;
+    grid-row: 7 / 9;
+}
+
+.footer{
+    grid-column: 1 / 5;
+    grid-row: 9 / 10;
+}
