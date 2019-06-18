@@ -13,26 +13,83 @@
 
 .main-profile{
     grid-column: 1 / 5;
-    grid-row: 2 / 5;
-    background-color: red;
+    grid-row: 2 / 4;
+    /* background-color: red; */
 }
 
 .numbers{
     grid-column: 1 / 5;
-    grid-row: 5 / 6;
+    grid-row: 7 / 7;
 }
 .setting{
-    background-color: gray;
+    /* background-color: gray; */
     grid-column: 1 / 5;
-    grid-row: 6 / 7;
+    grid-row: 8 / 8;
 }
 
 .tweet{
     grid-column: 1 / 5;
-    grid-row: 7 / 9;
+    grid-row: 9 / 9;
 }
 
 .footer{
     grid-column: 1 / 5;
-    grid-row: 9 / 10;
+    grid-row: 11 / 12;
 }
+
+.header{
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat(2,50%)
+}
+
+.wifi{
+    grid-column: 1 / 2;
+    
+}
+
+.time{
+    grid-column: 3 / 4;
+}
+
+.battery{
+    grid-column: 5 / 5;
+    text-align: end;
+}
+
+.header-profile{
+    grid-column: 3 / 4;
+}
+
+.magnifying-glass{
+    grid-column: 5 / 5;
+    text-align: end;
+}
+
+.numbers{
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    grid-template-rows: repeat(2,50%);
+    text-align: center;
+}
+
+.setting{
+    display: grid;
+    grid-template-columns: repeat(2,50%); 
+}
+
+.follow-button{
+    text-align: end;
+}
+
+.tweet{
+    text-align: center;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    background-color: #000000;
+
+}
+
