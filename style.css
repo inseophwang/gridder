@@ -3,23 +3,28 @@
     grid-template-columns: repeat(5,20%);
     grid-template-rows: repeat(10,10%);
     height: 1000px;
+    width: 700px;
 }
 
 .header{
     grid-column: 1 / 5;
     grid-row: 1 / 2;
     background-color: #54ADEE;
+    width: 700px;
 }
 
 .main-profile{
     grid-column: 1 / 5;
     grid-row: 2 / 4;
     /* background-color: red; */
+    width: 700px;
+    height: 500px;
 }
 
 .numbers{
     grid-column: 1 / 5;
     grid-row: 7 / 7;
+    width: 700px;
 }
 .setting{
     /* background-color: gray; */
@@ -30,11 +35,13 @@
 .tweet{
     grid-column: 1 / 5;
     grid-row: 9 / 9;
+    width: 700px;
 }
 
 .footer{
     grid-column: 1 / 5;
     grid-row: 11 / 12;
+    width: 700px;
 }
 
 .header{
@@ -71,11 +78,19 @@
     grid-template-columns: repeat(3,33%);
     grid-template-rows: repeat(2,50%);
     text-align: center;
+    border: #B4C1CA solid 2px;
+    border-top: none;
+
 }
 
 .setting{
     display: grid;
-    grid-template-columns: repeat(2,50%); 
+    grid-template-columns: repeat(5,20%); 
+}
+
+.follow-button{
+    grid-column: 5 /5;
+    text-align: end;
 }
 
 .follow-button{
@@ -93,3 +108,6 @@
 
 }
 
+a{
+    color: #B4C1CA;
+}
