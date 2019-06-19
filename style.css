@@ -30,6 +30,10 @@
     /* background-color: gray; */
     grid-column: 1 / 5;
     grid-row: 8 / 8;
+    
+    /* border: #B4C1CA solid 2px;  */
+
+
 }
 
 .tweet{
@@ -90,11 +94,9 @@
 
 .follow-button{
     grid-column: 5 /5;
-    text-align: end;
-}
-
-.follow-button{
-    text-align: end;
+    /* text-align: end; */
+    padding-left: 50px;
+    
 }
 
 .tweet{
@@ -104,7 +106,7 @@
 .footer{
     display: grid;
     grid-template-columns: repeat(4,25%);
-    background-color: #000000;
+    background-color: #180D05;
 
 }
 
